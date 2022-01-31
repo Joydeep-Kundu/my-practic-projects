@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+HTML5 display-role reset for older browsers
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+
+	text-align: center;
+	font-size: 2em;
+	line-height: 2;
+	background: radial-gradient(top bottom rgb(51, 50, 50) rgba(51, 50, 50, 0.507));
+}
+h2{
+	font-weight: 600;
+	font-size: 1.5em;
+	border-bottom:5px double rgb(7, 7, 7);
+	display: inline-block;
+	margin-bottom: 30px;
+}
+main{
+	display: flex;
+	flex-direction: column;
+	
+}
+.sub-container{
+	display: flex;
+	flex-direction: column;
+	color: rgb(255, 255, 255);
+	background-color: indianred;
+	border: 1px solid rgb(217, 223, 224);
+	margin:2.5px 5px;
+	border-radius: 0.5em;
+
+}
+.sub-container:hover,.sub-container:focus{
+	text-transform: uppercase;
+}
+.sub-container:nth-of-type(1){
+	background-color: rgb(252, 137, 7);
+	
+
+}
+.sub-container:nth-of-type(2){
+	background-color: rgb(43, 5, 211);
+
+}
+.sub-container:nth-of-type(3){
+	background-color: rgb(228, 216, 52);
+}
+.sub-container:nth-of-type(4){
+	background-color:rgb(32, 124, 44) ;
+}
+@media(min-width:750px){
+	main{
+		flex-direction: row;
+		flex-wrap:wrap ;
+	}
+		
+	.sub-container{
+		flex-basis: 300px;
+		flex-grow: 1;
+	}
+
+}

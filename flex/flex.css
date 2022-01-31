@@ -1,0 +1,44 @@
+section{
+    background-color: black;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap:wrap;
+    align-content:space-between;
+    
+}
+div{
+    margin: 1em;
+}
+ div:nth-of-type(1){
+    background-color: sandybrown;
+    width: 200px;
+    height: 200px;
+
+}
+div:nth-of-type(2){
+    background-color: lawngreen;
+    width: 200px;
+    height: 200px;
+
+}
+div:nth-of-type(3){
+    background-color: navy;
+    width: 200px;
+    height: 200px;
+
+}
+div:nth-of-type(4){
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+
+}
+div:nth-of-type(5){
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}

@@ -1,0 +1,43 @@
+#title {
+    color: rgba(199, 155, 13,0.7);
+    font-weight: 400;
+}
+body {
+    background: linear-gradient(to bottom,rgb(15, 98, 165),rgba(15,98,165,0.2));
+    background-size: cover;
+    background-attachment: fixed;
+    text-transform: none;
+    font-size: 3em;
+    font-family: 'Playball', cursive;
+}
+.subtitle {
+    color: rgb(228, 181, 26);
+}
+.form-input:hover {
+    color: rgb(197, 87, 48);
+}
+#a {
+    width: 400px;
+    height: 350px;
+}
+.link {
+    text-decoration: none;
+    /* float: right; */
+
+}
+#rgba{
+    width: 600px;
+    height: 600px;
+    background-color:rgba(23, 139, 62, 0.7);
+    margin: 30px;
+    padding: 20px;
+}
+#opacity{
+    width: 600px;
+    height:600px;
+    background-color: forestgreen;
+    opacity: 0.6;
+    margin: 30px;
+    padding: 20px;
+    padding: color red;
+}
