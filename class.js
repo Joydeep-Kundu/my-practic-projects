@@ -23,3 +23,22 @@ class Color {
     }
 };
 const c1 = new Color(132, 23, 45);
+class Pet {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    eat() {
+        return `${this.name} is eating!`;
+    }
+};
+class Cat extends Pet {
+    meow() {
+        return 'meoow!!!';
+    }
+};
+class Dog extends Pet {
+    bark() {
+        return 'wooof!!!';
+    }
+};
